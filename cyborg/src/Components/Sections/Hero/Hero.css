@@ -1,0 +1,36 @@
+
+.hero-main { 
+    background-image: url(../../../assets/images/banner-bg.jpg);
+    background-color: var(--dark-color);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    color: var(--light-color);
+    border-radius: var(--primary-border-radius);
+    padding: var(--primary-padding);
+     /* margin: 20px 20px 0 20px ;   */
+
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-sub-title {
+    font-size: 20px;
+    font-weight: var(--font-weight-normal);
+    margin-bottom: calc(var(--primary-marging) / 2);
+
+}
+
+.hero-title {
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: calc(var(--primary-marging) / 2 );
+    font-weight: var(--font-weight-bold);
+}
+
+.hero-title span {
+    color: var(--color-primary);
+
+ }

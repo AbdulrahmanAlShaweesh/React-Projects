@@ -1,0 +1,36 @@
+.desction-wrappter {
+    background-color: var(--darkest-color);
+    border-radius: var(--primary-border-radius);
+    padding: var(--primary-padding);
+    margin-top: var(--primary-marging);
+}
+
+.section-title {
+    display: flex;
+}
+
+.section-title h4, .section-title span{
+    font-size: 36px;
+    text-transform: capitalize; 
+    font-weight: 700;
+    word-spacing: 1.1px;
+}
+
+.section-title h4 {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.section-title span {
+    margin-left: 10px;
+    color: var(--color-primary );
+}
+
+
+
+.most-popular-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+

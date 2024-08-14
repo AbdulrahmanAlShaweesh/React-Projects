@@ -1,9 +1,17 @@
-import React from 'react'
+import {Container } from "./Components/index";
+import { Header, Hero, Footer, MostPopular } from "./Components/Sections";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <>
+      <Header />
+      <Container>
+            <Hero />
+            <MostPopular/>
+      </Container>
+      <Footer />
+    </>
+  );
+};
 
-export default App  
+export default App;
